@@ -12,7 +12,11 @@
 
 <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="857.0" prefWidth="1321.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Pane prefHeight="857.0" prefWidth="706.0" />
-      <Pane prefHeight="857.0" prefWidth="617.0" />
+      <Pane prefHeight="857.0" prefWidth="699.0">
+         <children>
+            <ListView layoutX="70.0" layoutY="13.0" prefHeight="821.0" prefWidth="540.0" />
+         </children>
+      </Pane>
+      <Pane prefHeight="857.0" prefWidth="627.0" />
    </children>
 </HBox>
