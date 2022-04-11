@@ -9,7 +9,7 @@ public class Professor extends Usuario{
         this.nome=nome;
     }
 
-    public String getPrazoDevolucao(Date dataEmprestimo, Date dataDevolucao) {
+    public String getPrazoDevolucao(String dataEmprestimo, String dataDevolucao) {
         return System.currentTimeMillis()-(dataDevolucao=(dataEmprestimo+30));
     }
 }

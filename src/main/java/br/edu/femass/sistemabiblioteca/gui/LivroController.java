@@ -9,6 +9,6 @@ public class LivroController {
 
     @FXML
     protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+        welcomeText.setText("Sistema da Biblioteca de Prog3!");
     }
 }
